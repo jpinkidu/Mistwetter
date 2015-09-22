@@ -29,7 +29,6 @@ import java.io.IOException;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import jpinkidu.mistwetter.DailyForecastActivity;
 import jpinkidu.mistwetter.weatherInfo.CurrentWeather;
 import jpinkidu.mistwetter.R;
 import jpinkidu.mistwetter.weatherInfo.Day;
@@ -57,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
     @Bind(R.id.progressBar) ProgressBar mProgressBar;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 getForecast(latitude, longitude);
             }
         });
+
 
 
         getForecast(latitude, longitude);
@@ -271,12 +272,12 @@ public class MainActivity extends AppCompatActivity {
         return isAvailable;
     }
 
-    @OnClick(R.id.hourlyButton)
+    /*@OnClick (R.id.weekButton)
     public void startDailyActivity(View view){
         Intent intent = new Intent(this, DailyForecastActivity.class);
-        intent.putExtra(DAILY_FORECAST, mForecast.getDailyForecast());
         startActivity(intent);
-    }
+    } */
+
 
 }
 

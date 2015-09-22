@@ -185,7 +185,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hourly Forecast"
-            android:id="@+id/hourlyButton"
+            android:id="@+id/dailyButton"
             android:layout_weight="1"
             android:textColor="@android:color/white"
             android:background="#40ffffff"
