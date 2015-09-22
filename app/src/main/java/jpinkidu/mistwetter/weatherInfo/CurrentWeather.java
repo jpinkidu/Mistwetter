@@ -27,6 +27,9 @@ public class CurrentWeather {
     public String getIcon() {
         return mIcon;
     }
+    public int getIconId() {
+        return Forecast.getIconId(mIcon);
+    }
 
     public void setIcon(String icon) {
         mIcon = icon;
@@ -86,7 +89,7 @@ public class CurrentWeather {
 
     public double getPrecipChance() {
         double precipValue = mPrecipChance*100;
-        return precipValue;
+        return (int)Math.round(precipValue);
     }
 
     public void setPrecipChance(double precipChance) {

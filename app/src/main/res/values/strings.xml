@@ -7,4 +7,5 @@
     <string name="error_title">Error</string>
     <string name="error_message">Sorry, there was an error.</string>
     <string name="error_ok_button_text">Ok.</string>
+    <string name="title_activity_daily_forecast">DailyForecastActivity</string>
 </resources>
