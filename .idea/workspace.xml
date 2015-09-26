@@ -10,8 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c287d9c4-f025-4ddf-9feb-0c773c75f58b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/jpinkidu/mistwetter/adapter/DayAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/jpinkidu/mistwetter/adapter/DayAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Mistwetter.iws" />
@@ -2009,7 +2007,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442994972569</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v0.3&#10;dayofTheWeek - german">
+      <created>1443260122841</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1443260122841</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2058,7 +2062,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v0.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.3" />
+    <MESSAGE value="v0.3&#10;dayofTheWeek - german" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.3&#10;dayofTheWeek - german" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
